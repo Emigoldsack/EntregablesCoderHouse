@@ -10,12 +10,13 @@ url = 'https://www.dolarsi.com/api/api.php?type=valoresprincipales'
 # Consulta SQL como constante
 CREATE_TABLE_QUERY = """
     CREATE TABLE IF NOT EXISTS cotizaciones (
-        nombre VARCHAR(255),
-        compra NUMERIC,
-        venta NUMERIC,
-        fecha DATE,
-        PRIMARY KEY (nombre, fecha)
-    )
+    nombre VARCHAR(255),
+    compra NUMERIC,
+    venta NUMERIC,
+    fecha DATE,
+    PRIMARY KEY (nombre, fecha),
+    CONSTRAINT unique_nombre_fecha UNIQUE (nombre, fecha)
+   )
 """
 
 try:
