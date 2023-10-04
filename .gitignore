@@ -1,0 +1,4 @@
+# Ignorar archivos de registro de Airflow
+airflow-docker/logs/
+
+
