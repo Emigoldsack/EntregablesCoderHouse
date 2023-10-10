@@ -1,7 +1,0 @@
-{
-    "db_host": "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com",
-    "db_port": "5439",
-    "db_name": "data-engineer-database",
-    "db_user": "emigoldsack_coderhouse",
-    "db_password": "bf8I04ns9C"
-}

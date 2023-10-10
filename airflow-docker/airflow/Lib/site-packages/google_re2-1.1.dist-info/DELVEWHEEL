@@ -1,0 +1,2 @@
+Version: 1.5.0
+Arguments: ['C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64\\lib\\site-packages\\delvewheel\\__main__.py', 'repair', '--wheel-dir=.', 'dist/google_re2-1.1-cp310-cp310-win_amd64.whl']
